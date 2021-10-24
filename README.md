@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Introduction
-The aim of this project is create a well management system app that is able to interact with the REST API to allow users to either create, delete, update or view well details. The users also has the ability to view well history if needed.
+The aim of this project is create a well management system app that is able to interact with the REST API to allow users to either create, delete, update or view well details. The users also have the ability to view the well history of a specific if needed.
 
 #### Available Scripts
 

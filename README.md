@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Introduction
-The aim of this project is create a well management system app that is able to interact with the REST API to allow users to either create, delete, update or view well details. The users also have the ability to view the well history of a specific if needed.
+The aim of this project is to create a well management system app that is able to interact with the REST API to allow users to either create, delete, update or view well details. The users also have the ability to view the well history of a specific if needed.
 
 #### Available Scripts
 
@@ -54,15 +54,17 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 ![Welldescription image](https://github.com/wemiibidun/well_management_system/blob/main/well_description_screenshot.png)
 
 ## Technologies (Language, Library and Framework)
-![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![JSX](https://img.shields.io/badge/JSX-239120?style=for-the-badge&logo=jsx&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/React-239120?style=for-the-badge&logo=react&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-239120?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-239120?style=for-the-badge&logo=axios&logoColor=white)
 ![Heroku](https://img.shields.io/badge/Heroku-239120?style=for-the-badge&logo=heroku&logoColor=white)
 
-* HTML
+* JSX
 * CSS
 * React
+* React Bootstrap
 * Axios
 * Heroku
 

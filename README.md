@@ -77,7 +77,7 @@ The backend of this project is hosted on Azure. The backend wasn't designed by m
 
 <p>&nbsp;</p>
 
-![Swagger image](https://github.com/wemiibidun/well_management_system/blob/main/well_description_screenshot.png)
+![Swagger image](https://github.com/wemiibidun/well_management_system/blob/main/swagger_screenshot.png)
 
 
 ## Features

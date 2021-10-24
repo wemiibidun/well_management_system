@@ -51,7 +51,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Screenshot
 ![Homepage image](https://github.com/wemiibidun/well_management_system/blob/main/homepage_screenshot.png)
-![Welldescription image](https://github.com/wemiibidun/well_management_system/blob/main/homepage_screenshot.png)
+![Welldescription image](https://github.com/wemiibidun/well_management_system/blob/main/well_description_screenshot.png)
 
 ## Technologies (Language, Library and Framework)
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)

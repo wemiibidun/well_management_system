@@ -1,5 +1,4 @@
 ![GitLab Code Size](https://img.shields.io/github/languages/code-size/wemiibidun/well_management_system)
-![GitLab Status](https://flat.badgen.net/github/status/micromatch/micromatch)
 
 
 # Well Management System App (Using Axios)
@@ -54,10 +53,15 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ![Sample image](https://github.com/wemiibidun/weather_app_react/blob/master/weather_screenshot.png)
 
 ## Technologies (Language, Library and Framework)
-* GraphQL
-* Apollo Client
-* React
+![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+* HTML
 * CSS
+* Axios
+* React
+* Heroku
 
 ## Features
 The GUI of this project allows users to:
@@ -66,14 +70,12 @@ The GUI of this project allows users to:
 
 
 ## Link to Published Project
-[Weather App Webpage](https://wemiibidun.github.io/weather_app_react/)
+[Well Management App Webpage](https://well-management-system.herokuapp.com/)
 
 
 ## Status
 Project is: _Complete_
 
-## Inspiration
-This project was inspired by [PedroTech's Tutorial](https://www.youtube.com/watch?v=BABUMRn47iQ&ab_channel=PedroTech) & [Konstantin Münster's Github page](https://github.com/konstantinmuenster/graphql-weather-api)
 
 ## Contact
 Created by [@wemiibidun](https://twitter.com/wemiibidun/). Feel free to contact me via wemiibidun@gmail.com

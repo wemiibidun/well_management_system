@@ -59,9 +59,9 @@ class WellDetailsComponent extends Component {
                 <div className="container pt-5 mt-5">
                     <div className="row">
                         <div className="form-group mb-3">
-                            <button className="btn btn-primary" onClick={ () => this.viewList(this.state.well_history.id)}> Back </button>
+                            <button style={{backgroundColor:"#99C0DB"}} className="btn fw-bold" onClick={ () => this.viewList(this.state.well_history.id)}> Back </button>
 
-                            <h3 className="text-center fw-bold">Well Description</h3> 
+                            <h3 className="text-center fw-bold" style={{color:"#99C0DB"}}>Well Description</h3> 
                         </div>
                     </div> 
                 </div> 
@@ -99,16 +99,16 @@ class WellDetailsComponent extends Component {
             
                 <div className="pt-3">
                     
-                    <button style={{marginLeft: "750px"}} className="btn btn-primary" onClick={() => this.wellHistory(this.state.well.id)}>View Well History</button>
+                    <button style={{marginLeft: "730px", backgroundColor:"#99C0DB"}} className="btn fw-bold" onClick={() => this.wellHistory(this.state.well.id)}>View Well History</button>
 
                     
                     &nbsp;&nbsp;&nbsp;
-                    <button className="btn btn-primary" onClick={ () => this.updateWell(this.state.well.id)}> Update Well </button>
+                    <button style={{backgroundColor:"#99C0DB"}} className="btn fw-bold" onClick={ () => this.updateWell(this.state.well.id)}> Update Well </button>
 
 
                     &nbsp;&nbsp;&nbsp;
 
-                    <button  className="btn btn-danger" onClick={() => this.deleteWell(this.state.well.id)}>Delete Well</button>
+                    <button  className="btn btn-danger text-dark fw-bold" onClick={() => this.deleteWell(this.state.well.id)}>Delete Well</button>
 
                 </div>
             </div>

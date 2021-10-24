@@ -59,7 +59,7 @@ componentDidMount(){
                                 <td> {well.wellName} </td>
                                 
                                 <td>
-                                    <button style={{marginLeft: "10px"}} onClick={ () => this.viewDetails(well.id)} className="btn btn-primary">View Well Details </button>
+                                    <button style={{marginLeft: "10px",backgroundColor:"#99C0DB"}} onClick={ () => this.viewDetails(well.id)} className="btn btn-outline-dark fw-bold">View Well Details </button>
                                 </td>
                             </tr>
                         )}

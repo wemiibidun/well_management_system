@@ -134,9 +134,9 @@ class CreateWellComponent extends Component {
                                 </div>
 
                                 <div className="pt-3">
-                                    <button style={{marginLeft: "635px"}} className="btn bg-primary text-white" onClick={this.saveWell}> Create </button>
+                                    <button style={{marginLeft: "630px", backgroundColor:"#99C0DB"}} className="btn fw-bold" onClick={this.saveWell}> Create </button>
 
-                                    <button style={{ marginLeft: "10px" }} className="btn btn-danger" onClick={this.cancel} >Cancel</button>
+                                    <button style={{ marginLeft: "10px" }} className="btn btn-danger text-dark fw-bold" onClick={this.cancel} >Cancel</button>
                                 </div>
                             </form>
 

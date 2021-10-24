@@ -54,10 +54,15 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ![Sample image](https://github.com/wemiibidun/weather_app_react/blob/master/weather_screenshot.png)
 
 ## Technologies (Language, Library and Framework)
-* GraphQL
-* Apollo Client
-* React
+![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![Javascript](https://img.shields.io/badge/Javascript-20232A?style=for-the-badge&logo=javascript&logoColor=61DAFB)
+
+* HTML
 * CSS
+* Axios
+* React
+* Heroku
 
 ## Features
 The GUI of this project allows users to:

@@ -16,7 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Introduction
-The aim of this project is create a simple weather app by using GraphQL API (GraphQL APIs get all the data your app needs in a single request through the use of queries). 
+The aim of this project is create a well management system app that is able to interact with the REST API to allow users to either create, delete, update or view well details. The users also has the ability to view well history if needed.
 
 #### Available Scripts
 

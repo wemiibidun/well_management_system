@@ -34,7 +34,7 @@ componentDidMount(){
                 <div className="container pt-5 mt-5">
                     <div className="row">
                         <div className="form-group mb-3">
-                            <h3 className="text-center fw-bold">List of All Wells</h3>
+                            <h3 className="text-center fw-bold" style={{color:"#99C0DB"}}>List of All Wells</h3>
                         </div>
                     </div> 
                 </div> 

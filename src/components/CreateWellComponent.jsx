@@ -85,52 +85,52 @@ class CreateWellComponent extends Component {
         return (
             <div>
 
-                <div className="container col-8 pt-2">
+                <div className="container input-box col-8 pt-3">
                     <div className="row">
                         <div>
-                        <h3 className="text-center mt-2 pt-5 fw-bold" style={{color:"#395A64"}}>Create New Well</h3>
+                        <h3 className="text-center mt-4 pt-5 fw-bolder" style={{color:"#99C0DB"}}>Create New Well</h3>
                         <div className="card-body">
 
-                            <form style={{width: "800px", height:"500px", color:"#395A64"}}className=" needs-validation" noValidate >
+                            <form style={{width: "800px", height:"500px", color:"#071929"}}className=" needs-validation" noValidate >
                                 <div className="form-group">
                                     <label for="validationUWID" className='form-label fw-bold'>*Unique Identifier</label>
-                                    <input style={{fontStyle:"italic"}} placeholder="uwid" name="uwid" required className="form-control" value={this.state.uwid} onChange={this.changeUWIDHandler}/>
+                                    <input style={{fontStyle:"italic"}} placeholder="uwid" name="uwid" required className="form-control form-control-sm" value={this.state.uwid} onChange={this.changeUWIDHandler}/>
                                 </div>
 
 
                                 <div className="form-group">
                                     <label className='pt-2 pb-1 fw-bold'>*Well Name</label>
-                                    <input style={{fontStyle:"italic"}} placeholder="Well Name" name="wellName" required className="form-control" value={this.state.wellName} onChange={this.changewellNameHandler}/>
+                                    <input style={{fontStyle:"italic"}} placeholder="Well Name" name="wellName" required className="form-control form-control-sm" value={this.state.wellName} onChange={this.changewellNameHandler}/>
                                 </div>
 
                                 <div className="form-group">
                                     <label className='pt-2 pb-1 fw-bold'>License Number</label>
-                                    <input style={{fontStyle:"italic"}} placeholder="License Number" name="licenseNumber" className="form-control" value={this.state.licenseNumber} onChange={this.changelicenseNumberHandler}/>
+                                    <input style={{fontStyle:"italic"}} placeholder="License Number" name="licenseNumber" className="form-control form-control-sm" value={this.state.licenseNumber} onChange={this.changelicenseNumberHandler}/>
                                 </div>
 
                                 <div className="form-group">
                                     <label className='pt-2 pb-1 fw-bold'>Area</label>
-                                    <input style={{fontStyle:"italic"}} placeholder="Area" name="area" className="form-control" value={this.state.area} onChange={this.changeareaHandler}/>
+                                    <input style={{fontStyle:"italic"}} placeholder="Area" name="area" className="form-control form-control-sm" value={this.state.area} onChange={this.changeareaHandler}/>
                                 </div>
 
                                 <div className="form-group">
                                     <label className='pt-2 pb-1 fw-bold'>Field</label>
-                                    <input style={{fontStyle:"italic"}} placeholder="Field" name="field" className="form-control" value={this.state.field} onChange={this.changefieldHandler}/>
+                                    <input style={{fontStyle:"italic"}} placeholder="Field" name="field" className="form-control form-control-sm" value={this.state.field} onChange={this.changefieldHandler}/>
                                 </div>
 
                                 <div className="form-group">
                                     <label className='pt-2 pb-1 fw-bold'>Total Depth</label>
-                                    <input style={{fontStyle:"italic"}} placeholder="Total Depth" name="totalDepth" className="form-control" value={this.state.totalDepth} onChange={this.changetotalDepthHandler}/>
+                                    <input style={{fontStyle:"italic"}} placeholder="Total Depth" name="totalDepth" className="form-control form-control-sm" value={this.state.totalDepth} onChange={this.changetotalDepthHandler}/>
                                 </div>
 
                                 <div className="form-group">
                                     <label className='pt-2 pb-1 fw-bold'>Drill Date</label>
-                                    <input style={{fontStyle:"italic"}} placeholder="Drill Date" name="drillDate" className="form-control" value={this.state.drillDate} onChange={this.changedrillDateHandler}/>
+                                    <input style={{fontStyle:"italic"}} placeholder="Drill Date" name="drillDate" className="form-control form-control-sm" value={this.state.drillDate} onChange={this.changedrillDateHandler}/>
                                 </div>
 
                                 <div className="form-group">
                                     <label className='pt-1 fw-bold'>Status</label>
-                                    <input style={{fontStyle:"italic"}} placeholder="Status" name="status" className="form-control" value={this.state.status} onChange={this.changestatusHandler}/>
+                                    <input style={{fontStyle:"italic"}} placeholder="Status" name="status" className="form-control form-control-sm" value={this.state.status} onChange={this.changestatusHandler}/>
                                 </div>
 
                                 <div className="pt-3">

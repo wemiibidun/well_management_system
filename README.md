@@ -46,7 +46,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 ## Screenshot
@@ -56,7 +55,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Technologies (Language, Library and Framework)
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React-239120?style=for-the-badge&logo=react&logoColor=white)
+![Axios](https://img.shields.io/badge/React-239120?style=for-the-badge&logo=axios&logoColor=white)
 
 * HTML
 * CSS

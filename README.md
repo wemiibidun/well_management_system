@@ -1,7 +1,8 @@
 ![GitLab Code Size](https://img.shields.io/github/languages/code-size/wemiibidun/well_management_system)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
 
-# Well Management System App (Using Axios)
+# Well Management System App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
@@ -16,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Introduction
-The aim of this project is create a simple weather app by using GraphQL API (GraphQL APIs get all the data your app needs in a single request through the use of queries). 
+The aim of this project is create a well management system app that is able to interact with the REST API to allow users to either create, delete, update or view well details. The users also have the ability to view the well history of a specific if needed.
 
 #### Available Scripts
 
@@ -46,27 +47,31 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 ## Screenshot
-![Sample image](https://github.com/wemiibidun/weather_app_react/blob/master/weather_screenshot.png)
+![Homepage image](https://github.com/wemiibidun/well_management_system/blob/main/homepage_screenshot.png)
+![Welldescription image](https://github.com/wemiibidun/well_management_system/blob/main/well_description_screenshot.png)
 
 ## Technologies (Language, Library and Framework)
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React-239120?style=for-the-badge&logo=react&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-239120?style=for-the-badge&logo=axios&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-239120?style=for-the-badge&logo=heroku&logoColor=white)
 
 * HTML
 * CSS
-* Axios
 * React
+* Axios
 * Heroku
 
 ## Features
 The GUI of this project allows users to:
-* Search for a city's weather information
-* User will be able to see the current temperature, wind speed and little description of weather
+* Create a new well
+* View Well details and well history
+* Update wells
+* Delete wells
 
 
 ## Link to Published Project

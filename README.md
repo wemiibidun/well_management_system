@@ -70,7 +70,7 @@ The GUI of this project allows users to:
 
 
 ## Link to Published Project
-[Well Management App Webpage](https://wemiibidun.github.io/weather_app_react/)
+[Well Management App Webpage](https://well-management-system.herokuapp.com/)
 
 
 ## Status

@@ -83,7 +83,7 @@ The backend of this project is hosted on Azure. The backend wasn't designed by m
 ## Features
 The GUI of this project allows users to:
 * Create a new well
-* View Well details and well history
+* View Well details and Well history
 * Update wells
 * Delete wells
 

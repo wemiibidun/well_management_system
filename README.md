@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [Introduction](#introduction)
 * [Screenshot](#screenshot)
 * [Technologies](#technologies-language-library-and-framework)
+* [Backend](#backend)
 * [Features](#features)
 * [Link to Published Project](#link-to-published-portfolio)
 * [Status](#status)
@@ -17,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Introduction
-The aim of this project is create a well management system app that is able to interact with the REST API to allow users to either create, delete, update or view well details. The users also have the ability to view the well history of a specific if needed.
+The aim of this project is to create a well management system app that is able to interact with the REST API to allow users to either create, delete, update or view well details. The users also have the ability to view the well history of a specific if needed.
 
 #### Available Scripts
 
@@ -51,25 +52,38 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 ## Screenshot
 ![Homepage image](https://github.com/wemiibidun/well_management_system/blob/main/homepage_screenshot.png)
+
+<p>&nbsp;</p>
+
 ![Welldescription image](https://github.com/wemiibidun/well_management_system/blob/main/well_description_screenshot.png)
 
 ## Technologies (Language, Library and Framework)
-![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![JSX](https://img.shields.io/badge/JSX-239120?style=for-the-badge&logo=jsx&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/React-239120?style=for-the-badge&logo=react&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-239120?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-239120?style=for-the-badge&logo=axios&logoColor=white)
 ![Heroku](https://img.shields.io/badge/Heroku-239120?style=for-the-badge&logo=heroku&logoColor=white)
 
-* HTML
-* CSS
-* React
-* Axios
-* Heroku
+* **JSX** - JSX stands for JavaScript XML. It converts HTML tags into react elements. It is an extension of JavaScript based on ES6, that is translated into regular JavaScript at runtime.
+* **CSS** - CSS stands for Cascading Style Sheet. An external App.css style sheet for created to style the pages of the web page. For this project both inline and external stylesheets were used
+* **React** - React is an open source javascript library that is used to build interactive user interfaces. React was used for this project because of its simplicity, performance and also very extensive
+* **React Bootstrap** - Another stylesheet used was react boostrap which is built with both react and bootstrap. This was used for styling of some call to actions and elements
+* **Axios** - Axios is a library that helps us to make http requests to external resources. For this project, there was a need to retrieve data from an external API so that it can be displayed in the web pages. Axios was able to handle all the requests and responses. The reason why axios was used is because it supports older browsers which makes this app functional accross different versions. Also because it is based on the Promise API, it has some advantages, such as protection against cross-site request forgery (CSFR) amongst others.
+* **Heroku** - Heroku can be used to deploy, manage and scale your application. Heroku was used for the deployment of the well management app. Heroku was used to deploy this app because it is straightforward to use and also provides a pre-installed operating system and servers thereby eliminating the need to configure the infrastructure.
+
+## Backend
+The backend of this project is hosted on Azure. The backend wasn't designed by me but a swagger framework was provided to give an insight to the information that is required tl be consumed by the API and their respective end points
+
+<p>&nbsp;</p>
+
+![Swagger image](https://github.com/wemiibidun/well_management_system/blob/main/well_description_screenshot.png)
+
 
 ## Features
 The GUI of this project allows users to:
 * Create a new well
-* View Well details and well history
+* View Well details and Well history
 * Update wells
 * Delete wells
 

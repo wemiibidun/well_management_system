@@ -56,7 +56,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/React-239120?style=for-the-badge&logo=react&logoColor=white)
-![Axios](https://img.shields.io/badge/React-239120?style=for-the-badge&logo=axios&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-239120?style=for-the-badge&logo=axios&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-239120?style=for-the-badge&logo=heroku&logoColor=white)
 
 * HTML
 * CSS

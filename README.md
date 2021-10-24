@@ -1,5 +1,4 @@
 ![GitLab Code Size](https://img.shields.io/github/languages/code-size/wemiibidun/well_management_system)
-![GitLab Status](https://flat.badgen.net/github/status/micromatch/micromatch)
 
 
 # Well Management System App (Using Axios)
@@ -56,7 +55,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Technologies (Language, Library and Framework)
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
-![Javascript](https://img.shields.io/badge/Javascript-20232A?style=for-the-badge&logo=javascript&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 * HTML
 * CSS

@@ -2,7 +2,7 @@
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
 
-# Well Management System App (Using Axios)
+# Well Management System App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 

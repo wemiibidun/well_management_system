@@ -68,8 +68,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 ## Features
 The GUI of this project allows users to:
-* Search for a city's weather information
-* User will be able to see the current temperature, wind speed and little description of weather
+* Create a new well
+* View Well details and well history
+* Update wells
+* Delete wells
 
 
 ## Link to Published Project

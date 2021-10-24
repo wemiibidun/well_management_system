@@ -52,6 +52,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 ## Screenshot
 ![Homepage image](https://github.com/wemiibidun/well_management_system/blob/main/homepage_screenshot.png)
+
+<p>&nbsp;</p>
+
 ![Welldescription image](https://github.com/wemiibidun/well_management_system/blob/main/well_description_screenshot.png)
 
 ## Technologies (Language, Library and Framework)
@@ -71,6 +74,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 ## Backend
 The backend of this project is hosted on Azure. The backend wasn't designed by me but a swagger framework was provided to give an insight to the information that is required tl be consumed by the API and their respective end points
+
+<p>&nbsp;</p>
+
 ![Swagger image](https://github.com/wemiibidun/well_management_system/blob/main/well_description_screenshot.png)
 
 

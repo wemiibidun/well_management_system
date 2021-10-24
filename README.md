@@ -71,14 +71,12 @@ The GUI of this project allows users to:
 
 
 ## Link to Published Project
-[Weather App Webpage](https://wemiibidun.github.io/weather_app_react/)
+[Well Management App Webpage](https://wemiibidun.github.io/weather_app_react/)
 
 
 ## Status
 Project is: _Complete_
 
-## Inspiration
-This project was inspired by [PedroTech's Tutorial](https://www.youtube.com/watch?v=BABUMRn47iQ&ab_channel=PedroTech) & [Konstantin Münster's Github page](https://github.com/konstantinmuenster/graphql-weather-api)
 
 ## Contact
 Created by [@wemiibidun](https://twitter.com/wemiibidun/). Feel free to contact me via wemiibidun@gmail.com

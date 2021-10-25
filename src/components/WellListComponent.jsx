@@ -10,10 +10,16 @@ class WellListComponent extends Component  {
 
     this.state = {
         uwid: this.props.match.params.uwid,
-        wells: []
+        wells: [],
+
+        search: ''
 
       }
 } 
+
+updateSearch(event){
+    this.setState({search: event.target.value.substr(0,20)});
+}
 
 
 viewDetails(id){
@@ -32,6 +38,15 @@ componentDidMount(){
 }
 
     render() {
+        //let filteredWell = this.state.wells;
+        let filteredWell = this.state.wells.filter(
+            (well) => {
+                //if you cannot find uwid then do nothing else return uwid within filtered well
+                return well.uwid.indexOf(this.state.search) !== -1;
+            }
+        );
+        //console.log(filteredWell);
+
         return (
             <div>
 
@@ -39,6 +54,11 @@ componentDidMount(){
                     <div className="row">
                         <div className="form-group mb-3">
                             <button style={{backgroundColor:"#99C0DB"}} className="btn fw-bold" onClick={ () => this.viewList(this.state.wells.id)}> Return to Homepage </button>
+
+                            <input style={{marginLeft:"900px", fontStyle:"italic"}}  type="text" 
+                            placeholder="Search well by uwid..." 
+                            value = {this.state.search}
+                            onChange ={this.updateSearch.bind(this)} />
                             
                             <h3 className="text-center fw-bold" style={{color:"#99C0DB"}}>List of All Wells</h3>
                         </div>
@@ -58,7 +78,7 @@ componentDidMount(){
 
                     <tbody className="table-sm">
                         {
-                        this.state.wells.map(
+                        filteredWell.map(
                             well => 
                             <tr key = {well.id}>
                                 <td> {well.uwid}</td>

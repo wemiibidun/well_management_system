@@ -21,45 +21,14 @@ class UpdateWellComponent extends Component {
             errors: []
 
         }
-        // this.changeUWIDHandler = this.changeUWIDHandler.bind(this);
-        // this.changewellNameHandler = this.changewellNameHandler.bind(this);
-        // this.changelicenseNumberHandler = this.changelicenseNumberHandler.bind(this);
-        // this.changeareaHandler = this.changeareaHandler.bind(this);
-        // this.changefieldHandler = this.changefieldHandler.bind(this);
-        // this.changetotalDepthHandler = this.changetotalDepthHandler.bind(this);
-        // this.changedrillDateHandler = this.changedrillDateHandler.bind(this);
-        // this.changestatusHandler = this.changestatusHandler.bind(this);
+      
         this.inputHandler = this.inputHandler.bind(this);
 
         this.updateWell = this.updateWell.bind(this);
         this.cancel = this.cancel.bind(this);
     }
 
-    // changeUWIDHandler = (event) => {
-    //     this.setState({uwid: event.target.value})
-    // }
-
-    // changewellNameHandler = (event) => {
-    //     this.setState({wellName : event.target.value})
-    // }
-    // changelicenseNumberHandler = (event) => {
-    //     this.setState({licenseNumber : event.target.value})
-    // }
-    // changeareaHandler = (event) => {
-    //     this.setState({area : event.target.value})
-    // }
-    // changefieldHandler = (event) => {
-    //     this.setState({field : event.target.value})
-    // }
-    // changetotalDepthHandler = (event) => {
-    //     this.setState({totalDepth : event.target.value})
-    // }
-    // changedrillDateHandler = (event) => {
-    //     this.setState({drillDate : event.target.value})
-    // }
-    // changestatusHandler = (event) => {
-    //     this.setState({status : event.target.value})
-    // }
+    
     hasError(key) {
         return this.state.errors.indexOf(key) !== -1;
     }

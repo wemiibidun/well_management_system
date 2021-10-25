@@ -42,7 +42,7 @@ componentDidMount(){
         let filteredWell = this.state.wells.filter(
             (well) => {
                 //if you cannot find uwid then do nothing else return uwid within filtered well
-                return well.uwid.indexOf(this.state.search) !== -1;
+                return well.uwid.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
             }
         );
         //console.log(filteredWell);

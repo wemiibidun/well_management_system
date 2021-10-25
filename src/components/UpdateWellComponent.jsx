@@ -21,7 +21,7 @@ class UpdateWellComponent extends Component {
             errors: []
 
         }
-      
+       
         this.inputHandler = this.inputHandler.bind(this);
 
         this.updateWell = this.updateWell.bind(this);
@@ -45,23 +45,22 @@ class UpdateWellComponent extends Component {
         e.preventDefault();
         var errors = [];
     
-        // is uwid input field empty?
+        
         if (this.state.uwid === "") {
           errors.push("uwid");
         }
-        // is wellName input field empty?
+       
         if (this.state.wellName === "") {
             errors.push("wellName");
           }
-        // set error field in state
+        
         this.setState({
           errors: errors
         });
         
-        if (errors.length > 0) { // any validation error(s) exists
-          //alert("cant submit form! required field empty!!");
-          return false;  // don't submit
-        } else { // no validation errors 
+        if (errors.length > 0) { 
+          return false;  
+        } else { 
             let well = {
                 uwid: this.state.uwid, 
                 wellName: this.state.wellName, 
@@ -86,7 +85,6 @@ class UpdateWellComponent extends Component {
 
     cancel(e){
         e.preventDefault();
-        //this.props.history.push('/')
         this.props.history.goBack();
     }
 

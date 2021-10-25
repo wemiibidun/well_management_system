@@ -22,7 +22,7 @@ class CreateWellComponent extends Component {
             errors: []
 
         }
-       
+        
         this.inputHandler = this.inputHandler.bind(this);
         
         this.saveWell = this.saveWell.bind(this);
@@ -38,24 +38,23 @@ class CreateWellComponent extends Component {
     
         var errors = [];
     
-        // is uwid input field empty?
+        // this if statement will check if uwid field is empty
         if (this.state.uwid === "") {
           errors.push("uwid");
         }
-        // is wellName input field empty?
+        // this if statement will check if well name field is empty
         if (this.state.wellName === "") {
             errors.push("wellName");
           }
-        // set error field in state
+        // this is for setting the error's state
         this.setState({
           errors: errors
         });
         
-        if (errors.length > 0) { // any validation error(s) exists
-          //alert("cant submit form! required field empty!!");
-          return false;  // don't submit
-        } else { // no validation errors 
-          //alert("everything good. submit form!");
+        // check if any validation error(s) exists, if it does don't submit else submit
+        if (errors.length > 0) { 
+          return false; 
+        } else { 
           let well = {
             uwid: this.state.uwid, 
             wellName: this.state.wellName, 
@@ -71,9 +70,9 @@ class CreateWellComponent extends Component {
   
           //axios method returns a promise
           WellService.createWell(well).then(res => {
-              alert("Well is now successfully created");
+              alert("Well is now successfully created and added to well list");
               //after form submission, navigate back to home page
-              this.props.history.push('/')
+              this.props.history.push('/wellList')
           });
         }
       }
@@ -116,8 +115,7 @@ class CreateWellComponent extends Component {
                                     onChange={this.inputHandler}/>
 
                                     <div style={
-                                        this.hasError("uwid") ? {color: "red", fontSize: "12px"} : {display: "none"}
-                                        }>
+                                        this.hasError("uwid") ? {color: "red", fontSize: "12px"} : {display: "none"}}>
                                         Please enter a UWID
                                     </div>
                                 </div>
@@ -135,8 +133,7 @@ class CreateWellComponent extends Component {
                                     value={this.state.wellName} 
                                     onChange={this.inputHandler}/>
                                     <div style={
-                                        this.hasError("wellName") ? {color: "red", fontSize: "12px"} : {display: "none"}
-                                        }>
+                                        this.hasError("wellName") ? {color: "red", fontSize: "12px"} : {display: "none"}}>
                                         Please enter a Well Name
                                     </div>
                                 </div>

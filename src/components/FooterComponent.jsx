@@ -3,11 +3,6 @@ import React, { Component } from 'react';
 
 class FooterComponent extends Component{
     Constructor(props){
-        //super(props);
-
-        // this.state = {
-            
-        // }
     }
 
     render() {

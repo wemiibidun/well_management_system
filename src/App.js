@@ -28,7 +28,6 @@ function App() {
               <Route path = "/updateWell/:id" component = {UpdateWellComponent }></Route>
               <Route path = "/wellHistory/:id" component = {WellHistoryComponent }></Route>
             </Switch>  
-
           </div>
         <FooterComponent />
       </Router>

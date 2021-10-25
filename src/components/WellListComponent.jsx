@@ -20,6 +20,10 @@ viewDetails(id){
     this.props.history.push(`/wellDetails/${id}`);
 }
 
+viewList(id){
+    this.props.history.push('/');
+}
+
 componentDidMount(){
     WellService.getWellList().then( res => {
         this.setState({wells: res.data});
@@ -34,18 +38,20 @@ componentDidMount(){
                 <div className="container pt-5 mt-5">
                     <div className="row">
                         <div className="form-group mb-3">
+                            <button style={{backgroundColor:"#99C0DB"}} className="btn fw-bold" onClick={ () => this.viewList(this.state.wells.id)}> Return to Homepage </button>
+                            
                             <h3 className="text-center fw-bold" style={{color:"#99C0DB"}}>List of All Wells</h3>
                         </div>
                     </div> 
                 </div> 
                 
-                
-                <table className="table table-striped table-bordered table-sm">
+                <div>
+                <table className="table table-hover borderless" style={{color:"#222831", paddingBottom:"50px"}}>
                     <thead className="table-head">
                         <tr>
                             <th width='30%'>Unique Identifier</th>
-                            <th width='40%'>Well Name</th>
-                            <th width='20%'>Action</th>
+                            <th width='30%'>Well Name</th>
+                            <th width='10%'>Action</th>
                         </tr>
                     </thead>
 
@@ -65,6 +71,7 @@ componentDidMount(){
                         )}
                     </tbody>
                 </table>
+            </div>
             </div>
 
         );

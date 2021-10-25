@@ -39,8 +39,8 @@ componentDidMount(){
                     </div> 
                 </div> 
                 
-
-                <table className="table table-striped table-bordered">
+                
+                <table className="table table-striped table-bordered table-sm">
                     <thead className="table-head">
                         <tr>
                             <th width='30%'>Unique Identifier</th>
@@ -50,7 +50,7 @@ componentDidMount(){
                     </thead>
 
 
-                    <tbody>
+                    <tbody className="table-sm">
                         {
                         this.state.wells.map(
                             well => 

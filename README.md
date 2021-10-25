@@ -73,11 +73,11 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 * **Heroku** - Heroku can be used to deploy, manage and scale your application. Heroku was used for the deployment of the well management app. Heroku was used to deploy this app because it is straightforward to use and also provides a pre-installed operating system and servers thereby eliminating the need to configure the infrastructure.
 
 ## Backend
-The backend of this project is hosted on Azure. The backend wasn't designed by me but a swagger framework was provided to give an insight to the information that is required tl be consumed by the API and their respective end points
+The backend of this project is hosted on Azure. The backend wasn't designed by me but a Swagger framework (_Swagger is an Interface Description Language for describing RESTful APIs expressed using JSON_) was provided to give an insight to the information that is required to be consumed by the API and their respective end points
 
 <p>&nbsp;</p>
 
-![Swagger image](https://github.com/wemiibidun/well_management_system/blob/main/well_description_screenshot.png)
+![Swagger image](https://github.com/wemiibidun/well_management_system/blob/main/swagger_screenshot.png)
 
 
 ## Features

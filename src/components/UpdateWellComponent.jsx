@@ -129,7 +129,7 @@ class UpdateWellComponent extends Component {
                                       }
                                     value={this.state.uwid} 
                                     onChange={this.inputHandler}
-                                    disabled/>
+                                    />
 
                                     <div style={
                                         this.hasError("uwid") ? {color: "red", fontSize: "12px"} : {display: "none"}

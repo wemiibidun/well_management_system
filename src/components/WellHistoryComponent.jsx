@@ -38,7 +38,7 @@ class WellHistoryComponent extends Component {
                     <div className="row">
                         <div className="form-group mb-1">
                             
-                            <button className="btn btn-primary" style={{backgroundColor:"#99C0DB"}} onClick={ () => this.viewDetails(this.state.well_history.id)}> Back </button>
+                            <button className="btn fw-bold" style={{backgroundColor:"#99C0DB"}} onClick={ () => this.viewDetails(this.state.well_history.id)}> Back </button>
 
                             <h3 className="text-center fw-bold"> Well History </h3> 
  

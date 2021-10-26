@@ -65,8 +65,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 ![Axios](https://img.shields.io/badge/Axios-239120?style=for-the-badge&logo=axios&logoColor=white)
 ![Heroku](https://img.shields.io/badge/Heroku-239120?style=for-the-badge&logo=heroku&logoColor=white)
 
-* **JSX** - JSX stands for JavaScript XML. It converts HTML tags into react elements. It is an extension of JavaScript based on ES6, that is translated into regular JavaScript at runtime.
-* **CSS** - CSS stands for Cascading Style Sheet. An external App.css style sheet for created to style the pages of the web page. For this project both inline and external stylesheets were used
+* **JSX** - JSX stands for JavaScript XML. It converts HTML tags into react elements. It is an extension of JavaScript based on ES6, that is translated into regular JavaScript at runtime. JSX was used to write all HTML elements in React (within Javascript code) in this project.
+* **CSS** - CSS stands for Cascading Style Sheet. An external App.css style sheet was created to style the pages of the web page. For this project both inline and external stylesheets were used.
 * **React** - React is an open source javascript library that is used to build interactive user interfaces. React was used for this project because of its simplicity, performance and also very extensive
 * **React Bootstrap** - Another stylesheet used was react boostrap which is built with both react and bootstrap. This was used for styling of some call to actions and elements
 * **Axios** - Axios is a library that helps us to make http requests to external resources. For this project, there was a need to retrieve data from an external API so that it can be displayed in the web pages. Axios was able to handle all the requests and responses. The reason why axios was used is because it supports older browsers which makes this app functional accross different versions. Also because it is based on the Promise API, it has some advantages, such as protection against cross-site request forgery (CSFR) amongst others.

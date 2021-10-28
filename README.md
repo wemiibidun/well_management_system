@@ -1,4 +1,5 @@
 ![GitLab Code Size](https://img.shields.io/github/languages/code-size/wemiibidun/well_management_system)
+![GitLab Languages](https://img.shields.io/github/languages/count/wemiibidun/well_management_system)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
 
